@@ -1,0 +1,16 @@
+{
+  "name": "rl-postman",
+  "version": "1.0.0",
+  "description": "rl-postman",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "rajithlingam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
