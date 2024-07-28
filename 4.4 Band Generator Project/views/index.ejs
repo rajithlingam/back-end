@@ -1,0 +1,14 @@
+
+<%- include('./partials/header.ejs') %>
+
+<form action="/submit" method="POST">
+  <input type="submit" value="Generate Name">
+</form>
+
+<% if (locals.bandName) { %>
+<h1><%= bandName %></h1>  
+<% } else { %>
+      <h1>WelCome To BandNameGenerator</h1>
+  <% } %>
+
+<%- include('./partials/footer.ejs') %>
