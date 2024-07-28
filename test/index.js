@@ -1,5 +1,6 @@
 function week () {
-    var day = new Date();
-var date = day.getDay()
+    var date = new Date();
     return date;
 }
+
+document.querySelector(".h1").innerHTML = week();
